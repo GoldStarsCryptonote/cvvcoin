@@ -5,8 +5,8 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define COMPANY "CvvCoin project"
-!define VERSION 1.0
+!define COMPANY "Cvvcoin project"
+!define VERSION 1.0.0.0
 !define URL http://www.Cvvcoin.com/
 
 # MUI Symbol Definitions
