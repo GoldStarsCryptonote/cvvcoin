@@ -1,5 +1,5 @@
 ---
-name: "CvvCoin"
+name: "cvvcoin"
 suites:
 - "precise"
 architectures:
@@ -14,7 +14,7 @@ packages:
 reference_datetime: "2018-09-18 00:00:00"
 remotes:
 - "url": "https://github.com/rishabhworking/cvvcoin.git"
-  "dir": "Cvvcoin"
+  "dir": "cvvcoin"
 files:
 - "qt-win32-4.8.5-gitian-r8.zip"
 - "boost-win32-1.55.0-gitian-r6.zip"
@@ -31,6 +31,7 @@ script: |
   unzip ../build/bitcoin08-deps-win32-gitian-r13.zip
   cd $HOME/build/
   #
+  chmod -R 777 cvvcoin
   cd cvvcoin
   export PATH=$STAGING/host/bin:$PATH
   mkdir -p $OUTDIR/src
