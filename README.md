@@ -4,7 +4,6 @@ Copyright (c) 2019 CvvCoin Developers
 
 What is CvvCoin?
 ----------------
-http://www.Cvvcoin.com
 
 CvvCoin (CVV) is a peer-to-peer and business-to-business cryptocurrency designed 
 with a long-term vision in mind. We are determined to create a resilient digital 
@@ -15,9 +14,6 @@ technology with genuine usability and merchant integration.
 CvvCoin is based on darkcoin and bitcoin and uses X11 as proof-of-work algorithm.
 
  - 1 minute block target
- - 99999999 total coins
- - 20000.007 coins per block (till 1000th Block) == 20.0000072% ~~ 20% 
- - 9 coins per block (till 8888888th Block) == 79.9999928% ~~ 80% 
  - Reward Maturity: 21 blocks
  - 1 Day or 10000 blocks to retarget difficulty
  - P2P Port: 10108
